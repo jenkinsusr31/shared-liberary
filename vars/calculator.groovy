@@ -1,7 +1,7 @@
 def add(a,b){
+	echo "Build Number is ${BUILD_NUMBER}"
+	echo "Node Name is ${NODE_NAME}"
 	echo "Addition of ${a} and ${b} is ${a+b}"
-	echo "${BUILD_NUMBER}"
-	echo "${BUILD_ID}"
 }
 def mul(a,b){
 	echo "Multiplication of ${a} and ${b} is ${a*b}"
